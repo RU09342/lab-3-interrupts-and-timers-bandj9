@@ -12,3 +12,6 @@ All of the boards had similar code to run the button blink program. There were t
 It may be hard to see in the video demonstration, but the user presses the button and the LED blinks at the rate that the button is held down for.  Sometimes there are bouncing errors in the button which makes it look as though the LED is blinking at a different rate than it was intended to.
 
 ![](https://media.giphy.com/media/3ohhwCJWtjgfHUuALu/giphy.gif)
+
+## Extra Work
+The extra work that was done for this project was the 8-bit binary counter.  This was done on the MSP430FR6989.  The P1OUT of this board was 8 bits, which directly corresponded with the status of GPIO pin.  The only thing that had to be done was adding a 1 to the P1OUT.  The count did have to be reset once the value reached 255.
